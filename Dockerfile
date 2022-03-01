@@ -1,6 +1,6 @@
 # Apache Dockerfile
 
-FROM centos:centos6
+FROM redhat:latest
 MAINTAINER Vishal <91195vichu789544@gmail.com>
 
 RUN yum update -y; yum clean all
