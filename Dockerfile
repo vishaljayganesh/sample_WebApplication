@@ -9,4 +9,4 @@ RUN echo "This is our new Apache Test Site" >> /var/www/html/index.html
 
 EXPOSE 80
 
-RUN echo "/sbin/service httpd start" >> /root/.bashrc
+RUN service httpd start
